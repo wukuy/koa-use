@@ -1,5 +1,5 @@
 module.exports = {
-	appPort: 3040,
+	port: 3040,
 	mongoUrl: 'mongodb://localhost:27017/WebPublish',
 	secret: 'web'
 }

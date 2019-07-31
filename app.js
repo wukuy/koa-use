@@ -5,6 +5,6 @@ const init = require('./utils/init');
 
 init(app);
 
-app.listen(config.appPort, () => {
-	console.log('server run at: ' + `http://localhost:${config.appPort}`.green.bold);
+app.listen(config.port, () => {
+	console.log('server run at: ' + `http://localhost:${config.port}`.green.bold);
 });
